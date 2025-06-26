@@ -57,7 +57,7 @@ def handle_home(environ):
                     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nilay-biswas-7aba07316" target="_blank">Nilay Biswas</a></p>
                 </div>
                 <footer>
-                    <p>Powered by Python WSGI | Static IP: 18.168.21.214</p>
+                    <p>Powered by Python WSGI | Static IP: 18.134.219.190</p>
                 </footer>
             </body>
             </html>
@@ -93,7 +93,7 @@ def handle_about(environ):
                     <li>Data Science</li>
                 </ul>
                 <footer>
-                    <p>Powered by Python WSGI | Static IP: 18.168.21.214</p>
+                    <p>Powered by Python WSGI | Static IP: 18.134.219.190</p>
                 </footer>
             </body>
             </html>
@@ -131,7 +131,7 @@ def handle_contact(environ):
                     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nilay-biswas-7aba07316" target="_blank">Nilay Biswas</a></p>
                 </div>
                 <footer>
-                    <p>Powered by Python WSGI | Static IP: 18.168.21.214</p>
+                    <p>Powered by Python WSGI | Static IP: 18.134.219.190</p>
                 </footer>
             </body>
             </html>
@@ -228,7 +228,7 @@ def handle_api(environ):
             'headers': [('Content-type', 'application/json')],
             'body': json.dumps({
                 'server': 'Nilay Biswas Portfolio',
-                'ip': '18.168.21.214',
+                'ip': '18.134.219.190',
                 'port': 8000,
                 'status': 'online',
                 'owner': {
@@ -264,7 +264,7 @@ def handle_not_found(environ):
                 <p>The requested URL was not found on this server.</p>
                 <p><a href="/home">Return to the home page</a></p>
                 <footer>
-                    <p>Powered by Python WSGI | Static IP: 18.168.21.214</p>
+                    <p>Powered by Python WSGI | Static IP: 18.134.219.190</p>
                 </footer>
             </body>
             </html>
@@ -274,7 +274,7 @@ def handle_not_found(environ):
 if __name__ == '__main__':
     # Create the WSGI server
     port = 8000
-    static_ip = '18.168.21.214'  # Updated static IP
+    static_ip = '18.134.219.190'  # Updated static IP
     
     print(f"Serving Nilay Biswas's portfolio at http://{static_ip}:{port}")
     print("Available routes:")
